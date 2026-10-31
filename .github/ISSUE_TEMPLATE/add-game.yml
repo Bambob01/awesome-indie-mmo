@@ -1,0 +1,63 @@
+name: Suggest a game or tool
+description: Don't want to edit the README yourself? Suggest something and we'll add it.
+title: "Add: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: e.g. Stendhal
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Official link
+      description: Official website, Steam page, or source repository.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - Indie MMORPGs
+        - Free-to-Play MMORPGs
+        - In Development
+        - Open-Source MMORPGs
+        - Browser and Text MMOs
+        - Engines, Frameworks and Server Kits
+        - Dev Resources and Communities
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status (games only)
+      options:
+        - Live
+        - Early Access
+        - Beta
+        - Alpha
+        - Playtest
+        - In Development
+        - Not a game (tool or resource)
+  - type: textarea
+    id: description
+    attributes:
+      label: One-sentence description
+      description: What makes it different? Keep it factual.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: This is not a private server or emulator of a commercial game.
+          required: true
+        - label: It's still running or actively being developed.
+          required: true
+        - label: I'm involved with this project (optional, totally fine either way).
