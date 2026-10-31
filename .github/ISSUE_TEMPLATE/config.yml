@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How to contribute
+    url: https://github.com/Bambob01/awesome-indie-mmo/blob/main/CONTRIBUTING.md
+    about: Read the 2-minute guide to adding a game yourself.
