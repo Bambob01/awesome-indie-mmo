@@ -1,0 +1,31 @@
+name: Status update or broken link
+description: A game launched, entered beta, shut down, or a link stopped working.
+title: "Update: "
+labels: ["status update"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Which entry?
+      placeholder: e.g. Monsters & Memories
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What changed?
+      options:
+        - New status (launched, beta, early access, etc.)
+        - Game has shut down or been cancelled
+        - Link is broken or moved
+        - Description is wrong or outdated
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details and a source
+      description: Please include a link to an announcement, Steam page or news post if you can.
+    validations:
+      required: true
