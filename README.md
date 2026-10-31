@@ -79,14 +79,13 @@ Alphas, betas, playtests and announced projects. Statuses change fast, so [send 
 
 Original games whose source code you can read, run or contribute to.
 
-- [Biomes](https://github.com/ill-inc/biomes-game) - Open-source sandbox MMORPG for the web built with Next.js, React and Three.js; self-hosted. `In Development` `Browser`
 - [Crossfire](https://crossfire.real-time.com/) - Cooperative multiplayer graphical RPG under the GPL, developed since 1992, with Java, GTK and web clients. `Live` `PC` `Mac` `Linux` `Browser`
 - [PlaneShift](https://store.steampowered.com/app/4268510) - Volunteer-built 3D fantasy MMORPG with skill-based progression, free on Steam. `Early Access` `PC` `Mac` `Linux`
 - [Ryzom](https://ryzom.com/) - Sci-fantasy sandbox MMORPG, open-sourced under the AGPL, free to play with an optional subscription. `Live` `PC` `Mac` `Linux`
 - [Source of Mana](https://github.com/sourceofmana/sourceofmana) - Early-stage 2D MMORPG built with Godot 4 by the Mana community. `In Development` `PC` `Mac` `Linux` `Mobile` `Browser`
 - [Stendhal](https://stendhalgame.org/) - Free GPL multiplayer adventure game with old-school 2D graphics, from the Arianne project. `Live` `PC` `Mac` `Linux`
 - [The Mana World](https://manasource.itch.io/the-mana-world) - Long-running 2D MMORPG with GPL-3.0 code and CC BY-SA 4.0 art. `Live` `PC` `Mac` `Linux` `Mobile`
-- [Veloren](https://github.com/veloren/veloren) - Open-world multiplayer voxel RPG written in Rust, with public and self-hosted servers. `Alpha` `PC` `Mac` `Linux`
+- [Veloren](https://gitlab.com/veloren/veloren) - Open-world multiplayer voxel RPG written in Rust, with public and self-hosted servers. `Alpha` `PC` `Mac` `Linux`
 
 ## Browser and Text MMOs
 
